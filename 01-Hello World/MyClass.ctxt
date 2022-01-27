@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=MyClass
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\ The\ entry\ point\ of\ our\ program.\ When\ we\ run\ our\ Java\ project,\ this\ is\r\n\ where\ BlueJ\ starts\ to\ execute\ statements\ within\!\r\n
+numComments=2

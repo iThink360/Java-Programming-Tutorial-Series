@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Methods
+comment0.text=\ Contents\:\ practice\ declaring\ methods\ and\ methods\ with\ parameters\!\ main()\r\nis\ also\ included\ here
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ printHello()
+comment3.params=
+comment3.target=void\ sum()
+comment4.params=x
+comment4.target=void\ someMethodWithParameters(int)
+comment5.params=nums
+comment5.target=void\ mean(int[])
+numComments=6
