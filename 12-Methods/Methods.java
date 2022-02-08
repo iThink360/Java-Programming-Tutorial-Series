@@ -4,14 +4,14 @@
  * errors in code.
  */
 
-/* Contents: practice declaring methods and methods with parameters! main()
-   is also included here */
+/* Contents: practice declaring methods, parameters, return type methods, and
+ * overloaded methods! main() is also included here */
 public class Methods
 {
     // The main method
     public static void main(String[] args)
     {
-        // Calling methods
+        /* Calling methods */
         
         // Example 1
         printHello();
@@ -24,10 +24,20 @@ public class Methods
         
         // Example 4
         int[] myNums = {1, 4, 3, 8, 9, 2, 0, 6, 4};
-        mean(myNums);
+        double myMean = mean(myNums);
+        System.out.println("The mean of myNums is " + myMean + "!");
+        
+        // Example 5
+        int myRoll = dieRoll();
+        System.out.println(myRoll);
+        
+        // Example 6
+        sum();
+        System.out.println(sum(2, -1));
+        System.out.println(sum(myNums));
     }
     
-    // Example 1
+    // Example 1 - Simple Method
     public static void printHello()
     {
         System.out.println("Hello, World!");
@@ -35,20 +45,20 @@ public class Methods
         System.out.println("I'm doing good, thanks!");
     }
     
-    // Example 2
+    // Example 2 - Simple Method
     public static void sum()
     {
         System.out.println(3 + 5);
     }
     
-    // Example 3
+    // Example 3 - Method with Parameter
     public static void someMethodWithParameters(int x)
     {
         System.out.println(x);
     }
     
-    // Example 4
-    public static void mean(int[] nums)
+    // Example 4 - Method with Parameter and Complex Operations
+    public static double mean(int[] nums)
     {
         int total = 0;
         for (int i = 0; i < nums.length; i++)
@@ -58,6 +68,35 @@ public class Methods
         
         double mean = total / nums.length;
         
-        System.out.println(mean);
+        return mean;
+    }
+    
+    // Example 5 - Randomization Method with Return Type
+    public static int dieRoll()
+    {
+        /* double temp = Math.random() * 6;
+        int rand = (int) temp + 1;
+        return rand; */
+       
+        // As a one liner...
+        return (int) (Math.random() * 6) + 1;
+    }
+    
+    // Example 6 - Overloaded Method
+    public static int sum(int a, int b)
+    {
+        return a + b;
+    }
+    
+    // Example 6, continued - Yet Another Overloaded Method
+    public static int sum(int[] nums)
+    {
+        int total = 0;
+        for (int num : nums)
+        {
+            total += num;
+        }
+        
+        return total;
     }
 }

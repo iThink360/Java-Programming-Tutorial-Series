@@ -1,21 +1,21 @@
 Greetings, fellow Thinker! iThink360 here. Thanks for downloading my code!
 
-The purpose of uploading this project is to serve as a reference for Episode
-17 of my Java Programming Tutorial series, where we begin our investigation
-of Java methods and parameters!
-
-We will expand upon this project in Episode 18.
+The purpose of uploading this project is to serve as a reference for Episodes
+17 and 18 of my Java Programming Tutorial series. In Episode 17, we begin our
+investigation of Java methods and parameters, and in Episode 18, we learn about
+method return types and method overloading.
 
 Classes:
-    * Methods --> Contains some examples of declaring methods and parameters.
-                  main() is also within this class.
+    * Methods --> Contains some examples of declaring methods, parameters, and
+                  method calls. We also have some examples of methods that
+                  return data and overloaded methods. main() is also within
+                  this class.
 
-Individual details can be found in the respective classes of my program. For
+Individual details can be found in the Methods class of this project. For even
 further confirmation, check out the video on my YouTube channel.
 
 Feel free to access the code through BlueJ or through whatever other IDE
-you choose. All example method calls are tested in main()! Long gone are the
-days of creating multiple main methods.
+you choose. All example method calls are tested in main()!
 
 As always, drop comments if you are confused or if you would like to reach out.
 
